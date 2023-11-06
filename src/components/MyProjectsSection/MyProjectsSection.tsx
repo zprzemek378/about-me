@@ -14,7 +14,7 @@ const MyProjectsSection = () => {
       <br /> <br />
       <div className="responsiveProjects1">
         <img
-          src="about-me/freshrental.png"
+          src="./about-me/freshrental.png"
           alt="freshRental"
           className="freshRental"
         />
