@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
 import AboutMeSection from "./components/AboutMeSection/AboutMeSection";
@@ -23,8 +23,27 @@ function App() {
     });
   };
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        zoom:
+          windowWidth < 500
+            ? `${(windowWidth * 100) / 500}%`
+            : windowWidth > 1230
+            ? `${(windowWidth * 100) / 1230}%`
+            : "100%",
+      }}
+    >
       <img
         src="/about-me/coding.jpg"
         alt="coding"
