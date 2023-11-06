@@ -39,8 +39,8 @@ function App() {
         zoom:
           windowWidth < 500
             ? `${(windowWidth * 100) / 500}%`
-            : windowWidth > 1230
-            ? `${(windowWidth * 100) / 1230}%`
+            : windowWidth > 1600
+            ? `${(windowWidth * 100) / 1600}%`
             : "100%",
       }}
     >
