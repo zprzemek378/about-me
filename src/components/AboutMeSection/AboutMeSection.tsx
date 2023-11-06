@@ -14,7 +14,7 @@ const AboutMeSection = () => {
     <div className="aboutMeSection">
       <h1 className="headText text-right">About me</h1>
       <div className="responsiveAboutMe">
-        <img src="/myPhoto.jpg" alt="myPhoto" className="myPhoto"></img>
+        <img src="about-me/myPhoto.jpg" alt="myPhoto" className="myPhoto"></img>
         <div className="aboutMeText">
           <h3 className="text-xl font-semibold">Przemysław Zieliński</h3>
           <br /> <br />

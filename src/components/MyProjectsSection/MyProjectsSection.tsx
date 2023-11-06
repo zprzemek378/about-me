@@ -13,7 +13,11 @@ const MyProjectsSection = () => {
       </div>
       <br /> <br />
       <div className="responsiveProjects1">
-        <img src="/freshrental.png" alt="freshRental" className="freshRental" />
+        <img
+          src="about-me/freshrental.png"
+          alt="freshRental"
+          className="freshRental"
+        />
         <div className="projectsText">
           <br />
           <h3 className="text-xl font-semibold">Fresh Truck Rental</h3>
@@ -40,7 +44,7 @@ const MyProjectsSection = () => {
           <li>Integration of user reviews and ratings for trustworthiness.</li>
         </div>
         <img
-          src="/freshrental2.png"
+          src="about-me/freshrental2.png"
           alt="freshRental2"
           className="freshRental"
         />

@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/coding.jpg" alt="coding" className="codingPhoto"></img>
+      <img src="about-me/coding.jpg" alt="coding" className="codingPhoto"></img>
       <Header makeScroll={makeScroll} />
       <div ref={scrollRef[0]}>
         <AboutMeSection />
