@@ -14,7 +14,7 @@ const MyProjectsSection = () => {
       <br /> <br />
       <div className="responsiveProjects1">
         <img
-          src="./about-me/freshrental.png"
+          src="/about-me/freshrental.png"
           alt="freshRental"
           className="freshRental"
         />
@@ -44,13 +44,13 @@ const MyProjectsSection = () => {
           <li>Integration of user reviews and ratings for trustworthiness.</li>
         </div>
         <img
-          src="%PUBLIC_URL%/freshrental2.png"
+          src="/about-me/freshrental2.png"
           alt="freshRental2"
           className="freshRental"
         />
       </div>
       <div className="text-center m-5 text-xl">
-        Explore myyyy{" "}
+        Explore my{" "}
         <a
           className="font-bold text-blue-800"
           href="https://zprzemek378.github.io/fresh-car-rental"
