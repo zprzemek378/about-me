@@ -1,0 +1,65 @@
+.header {
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  height: 50px;
+  border-bottom: 2px solid grey;
+}
+
+.headerText {
+  font-family: "Bebas Neue", sans-serif;
+  min-width: 285px;
+  flex: 1;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  flex: 2;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  height: 100%;
+
+  @media (max-width: 950px) {
+    display: block;
+    z-index: 9997;
+    margin-top: 1.3px;
+  }
+}
+
+.navElement {
+  min-width: 140px;
+  font-size: 17px;
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 5px;
+
+  transition: background-color 0.5s;
+
+  @media (max-width: 950px) {
+    background-color: rgb(202, 202, 202);
+    border: 2px solid rgb(185, 185, 185);
+    font-weight: 600;
+    width: 220px;
+    height: 30px;
+    margin-left: auto;
+    margin-top: -2px;
+    margin-bottom: 0;
+    border-radius: 3;
+    margin-right: 0;
+  }
+}
+
+.navElement:hover {
+  background-color: rgb(198, 198, 198);
+
+  @media (max-width: 950px) {
+    background-color: rgb(185, 185, 185);
+  }
+}

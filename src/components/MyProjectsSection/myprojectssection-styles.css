@@ -1,0 +1,46 @@
+.myProjectsSection {
+  background-color: rgb(255, 255, 167);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.projectsText {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.freshRental {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 200px;
+  width: fit-content;
+
+  box-shadow: 3px 0px 20px 10px rgba(255, 102, 0, 0.25),
+    -3px 0px 20px 10px rgba(255, 102, 0, 0.25),
+    0px 3px 20px 1px rgba(255, 102, 0, 0.25),
+    0px -3px 20px 10px rgba(255, 102, 0, 0.25);
+
+  @media (max-width: 855px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.responsiveProjects1 {
+  display: flex;
+  @media (max-width: 855px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.responsiveProjects2 {
+  display: flex;
+  @media (max-width: 855px) {
+    flex-direction: column;
+  }
+}
