@@ -44,14 +44,14 @@ const MusicalOdyssey = () => {
           together seamlessly.
         </div>
         <img
-          src="about-me/musicstudio.jpg"
+          src="/about-me/musicstudio.jpg"
           alt="musicStudio"
           className="musicStudio"
         ></img>
       </div>
       <div className="responsiveMusical2">
         <img
-          src="about-me/musicband.jpg"
+          src="/about-me/musicband.jpg"
           alt="musicStudio"
           className="musicStudio"
         ></img>
